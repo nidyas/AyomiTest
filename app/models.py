@@ -8,4 +8,4 @@ class Operation(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     expression = Column(String, nullable=False)
-    result = Column(Integer, nullable=False)
+    result = Column(Float, nullable=False)
